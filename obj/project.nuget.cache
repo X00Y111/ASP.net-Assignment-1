@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cy/kZizQCfcCcJ93s5mE8TK2f6qPeGLjfvbSZuf/JTr5SFksWAAUOK1EdRY/yjA3rlyTnW9WQGSpwsjBJLln5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\Assignment1\\ProgAssign1\\ProgAssign1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\serilog\\3.1.0-dev-02083\\serilog.3.1.0-dev-02083.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\serilog.sinks.console\\5.0.0-dev-00923\\serilog.sinks.console.5.0.0-dev-00923.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\serilog.sinks.file\\5.0.1-dev-00968\\serilog.sinks.file.5.0.1-dev-00968.nupkg.sha512"
+  ],
+  "logs": []
+}

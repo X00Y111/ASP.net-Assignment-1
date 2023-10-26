@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProgAssign1/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "30.0.1",
+          "Serilog": "3.1.0-dev-02083",
+          "Serilog.Sinks.Console": "5.0.0-dev-00923",
+          "Serilog.Sinks.File": "5.0.1-dev-00968"
+        },
+        "runtime": {
+          "ProgAssign1.dll": {}
+        }
+      },
+      "CsvHelper/30.0.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.0.1.0"
+          }
+        }
+      },
+      "Serilog/3.1.0-dev-02083": {
+        "runtime": {
+          "lib/net7.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/5.0.0-dev-00923": {
+        "dependencies": {
+          "Serilog": "3.1.0-dev-02083"
+        },
+        "runtime": {
+          "lib/net7.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.1-dev-00968": {
+        "dependencies": {
+          "Serilog": "3.1.0-dev-02083"
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgAssign1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/30.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "path": "csvhelper/30.0.1",
+      "hashPath": "csvhelper.30.0.1.nupkg.sha512"
+    },
+    "Serilog/3.1.0-dev-02083": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuHE3SYbBqpWTRnvikXrVVmcoee3USqFqZqTxq/3ITtTHo9agJD+r7nbaY6tFmpjSVgpbXZzn6XBpFkLXcqqwA==",
+      "path": "serilog/3.1.0-dev-02083",
+      "hashPath": "serilog.3.1.0-dev-02083.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/5.0.0-dev-00923": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F6OZ/fYKJ0GOI3ALBdzsWhonVqHYaYAFsU+URrHiZ/VyroCr9TOX/4uV6awh7Zoj709AtfTOi9BWFKFjC5Sz0Q==",
+      "path": "serilog.sinks.console/5.0.0-dev-00923",
+      "hashPath": "serilog.sinks.console.5.0.0-dev-00923.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/5.0.1-dev-00968": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-139kP+WeSXgyeQmudHu/vOCj1pWKlOLkHtdEfhisoPAGCNhIe8TAjweMpL9iuF+X40flA84w0Oaa4jhzXiM83w==",
+      "path": "serilog.sinks.file/5.0.1-dev-00968",
+      "hashPath": "serilog.sinks.file.5.0.1-dev-00968.nupkg.sha512"
+    }
+  }
+}
